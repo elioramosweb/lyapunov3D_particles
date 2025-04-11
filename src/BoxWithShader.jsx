@@ -76,7 +76,7 @@ const fragmentShader = `
     }
 `
 
-export default function SphereWithShader() {
+export default function boxWithShader() {
   const shaderRef = useRef();
 
   useFrame(({ clock }) => {

@@ -157,6 +157,8 @@ export default function boxWithShader() {
     }
   }, [])
 
+
+
   return (
     <mesh position={[0,0,0]}>
       <boxGeometry args={[5, 5,5,64, 64,64]} />

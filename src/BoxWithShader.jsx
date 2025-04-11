@@ -100,7 +100,7 @@ const fragmentShader = `
         finalColor = vec3(0.0);
        }
       
-      gl_FragColor = vec4(baseColor, 1.0);
+      gl_FragColor = vec4(baseColor, 0.5);
   }
 `
 
